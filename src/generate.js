@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const welcomePageUrl = "https://raw.githubusercontent.com/cloudkj/scar/master/src/welcome.html";
+const welcomePageUrl = "https://raw.githubusercontent.com/dhpizza/scar/master/src/welcome.html";
 
 ////////////////////////////////////////////////////////////////////////////////
 // Resources

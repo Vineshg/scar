@@ -12,7 +12,7 @@
     "ErrorFilename": {
       "Type": "String",
       "Description": "The filename of the error document for the website.",
-      "Default": "404.html"
+      "Default": "error.html"
     }
   },
   "Outputs": {
@@ -381,7 +381,7 @@
       "Type": "AWS::Lambda::Function",
       "Properties": {
         "Handler": "index.handler",
-        "Runtime": "nodejs8.10",
+        "Runtime": "nodejs12.16",
         "Timeout": "30",
         "Role": {
           "Fn::GetAtt": [
@@ -404,7 +404,7 @@
             "Arn"
           ]
         },
-        "WelcomePageUrl": "https://raw.githubusercontent.com/cloudkj/scar/master/src/welcome.html",
+        "WelcomePageUrl": "https://raw.githubusercontent.com/dhpizza/scar/master/src/welcome.html",
         "S3Bucket": {
           "Fn::Join": [
             "",

@@ -14,7 +14,7 @@ Quick Start
 
 #### 1. Launch a new stack using the AWS console to create all the required resources
 
-[![Launch stack](https://s3.amazonaws.com/cloudformation-examples/cloudformation-launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=SCAR&templateURL=https://s3.amazonaws.com/cloudkj/scar_base_template.json)
+[![Launch stack](https://s3.amazonaws.com/cloudformation-examples/cloudformation-launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=SCAR&templateURL=https://s3.amazonaws.com/dhpizza/scar_base_template.json)
 
 #### 2. Update the settings at your domain registrar to use the Route 53 name servers
 
@@ -63,7 +63,7 @@ available:
 | Apex domain requests | Redirect to `www` | | |
 | `www` subdomain requests | | Redirect to apex domain | N/A |
 | `http` requests | Redirect to `https` | Redirect to `https` | Redirect to `https` |
-| | [![Launch stack](https://s3.amazonaws.com/cloudformation-examples/cloudformation-launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=SCAR&templateURL=https://s3.amazonaws.com/cloudkj/scar_base_template.json) | (Coming Soon) | (Coming Soon) |
+| | [![Launch stack](https://s3.amazonaws.com/cloudformation-examples/cloudformation-launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=SCAR&templateURL=https://s3.amazonaws.com/dhpizza/scar_base_template.json) | (Coming Soon) | (Coming Soon) |
 
 Name Server Settings
 --------------------
