@@ -404,7 +404,7 @@
             "Arn"
           ]
         },
-        "WelcomePageUrl": "https://raw.githubusercontent.com/cloudkj/scar/master/src/welcome.html",
+        "WelcomePageUrl": "https://raw.githubusercontent.com/vineshg/scar/master/src/welcome.html",
         "S3Bucket": {
           "Fn::Join": [
             "",
